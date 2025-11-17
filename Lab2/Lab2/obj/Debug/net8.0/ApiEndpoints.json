@@ -2,8 +2,38 @@
   {
     "ContainingType": "Lab2.Controllers.APIGameController",
     "Method": "Get",
-    "RelativePath": "api/APIGame",
-    "HttpMethod": "",
+    "RelativePath": "api/APIGame/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab2.Controllers.APIGameController",
+    "Method": "GetAllGameLevel",
+    "RelativePath": "api/APIGame/GetAllGameLevel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab2.Controllers.APIGameController",
+    "Method": "GetAllQuestionGame",
+    "RelativePath": "api/APIGame/GetAllQuestionGame",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab2.Controllers.APIGameController",
+    "Method": "GetAllRegionGame",
+    "RelativePath": "api/APIGame/GetAllRegionGame",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],

@@ -2,7 +2,7 @@
 {
     public class ReponseApi
     {
-        public bool isSuccess { get; set; } = true;
+        public bool IsSuccess { get; set; } = true;
         public string Notification { get; set; }
         public object Data { get; set; }
 

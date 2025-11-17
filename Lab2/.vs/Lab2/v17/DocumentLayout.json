@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\models\\reponseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\reponseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\migrations\\20251114075553_addmodelgametodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\migrations\\20251114075553_addmodelgametodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\models\\reponseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\reponseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\models\\levelresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,8 +70,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -80,31 +84,27 @@
               "RelativeDocumentMoniker": "Lab2\\Controllers\\APIGameController.cs",
               "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Controllers\\APIGameController.cs",
               "RelativeToolTip": "Lab2\\Controllers\\APIGameController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T02:08:44.39Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ReponseApi.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\ReponseApi.cs",
               "RelativeDocumentMoniker": "Lab2\\Models\\ReponseApi.cs",
               "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\ReponseApi.cs",
               "RelativeToolTip": "Lab2\\Models\\ReponseApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T02:03:39.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "20251114075553_addModelGameToDb.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
               "RelativeDocumentMoniker": "Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
@@ -227,7 +227,7 @@
               "RelativeDocumentMoniker": "Lab2\\Program.cs",
               "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Program.cs",
               "RelativeToolTip": "Lab2\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwC4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T04:37:22.087Z",
               "EditorCaption": ""
