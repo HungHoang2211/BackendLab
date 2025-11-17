@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Lab2.Data;
+using Lab2.Models;
 
 namespace Lab2.Controllers
 {
@@ -7,6 +9,15 @@ namespace Lab2.Controllers
     [ApiController]
     public class APIGameController : ControllerBase
     {
+        private readonly ApplicationDbContext _db;
+        protected ReponseApi _reponse;
+
+        public APIGameController(ApplicationDbContext db)
+        {
+            _db = db;
+            _reponse = new();
+        }
+
         public IActionResult Get()
         {
             Lab2.Models.Lab2 lab1 = new Lab2.Models.Lab2()
