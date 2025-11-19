@@ -5,6 +5,29 @@
     "version": "v1"
   },
   "paths": {
+    "/api/APIGame/GetAllQuestionGameByLevel/{levelId}": {
+      "get": {
+        "tags": [
+          "APIGame"
+        ],
+        "parameters": [
+          {
+            "name": "levelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/APIGame/Register": {
       "post": {
         "tags": [

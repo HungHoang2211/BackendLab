@@ -26,6 +26,26 @@ namespace Lab2.Controllers
             _userManager = userManager;
         }
 
+        [HttpGet("GetAllQuestionGameByLevel/{levelId}")]
+        public async Task<IActionResult> GetAllQuestionGameByLevel(int levelId)
+        {
+            try
+            {
+                var questionGame = await _db.Questions.Where(x => x.levelId == levelId).ToListAsync();
+                _reponse.IsSuccess = true;
+                _reponse.Notification = "Lấy dữ liệu thành công";
+                _reponse.Data = questionGame;
+                return Ok(_reponse);
+            }
+            catch (Exception ex)
+            {
+                _reponse.IsSuccess = false;
+                _reponse.Notification = "Lỗi";
+                _reponse.Data = ex.Message;
+                return BadRequest(_reponse);
+            }
+        }
+
         [HttpPost("Register")]
         public async Task<IActionResult> Register(RegisterDTO registerDTO)
         {

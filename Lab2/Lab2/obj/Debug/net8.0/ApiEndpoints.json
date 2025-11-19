@@ -31,6 +31,22 @@
   },
   {
     "ContainingType": "Lab2.Controllers.APIGameController",
+    "Method": "GetAllQuestionGameByLevel",
+    "RelativePath": "api/APIGame/GetAllQuestionGameByLevel/{levelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "levelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab2.Controllers.APIGameController",
     "Method": "GetAllRegionGame",
     "RelativePath": "api/APIGame/GetAllRegionGame",
     "HttpMethod": "GET",
