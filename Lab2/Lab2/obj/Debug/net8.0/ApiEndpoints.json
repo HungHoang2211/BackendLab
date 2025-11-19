@@ -86,5 +86,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab2.Controllers.APIGameController",
+    "Method": "SaveResult",
+    "RelativePath": "api/APIGame/SaveResult",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "levelResult",
+        "Type": "Lab2.DTO.LevelResultDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

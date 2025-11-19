@@ -26,6 +26,34 @@ namespace Lab2.Controllers
             _userManager = userManager;
         }
 
+        [HttpPost("SaveResult")]
+        public async Task<IActionResult> SaveResult(LevelResultDTO levelResult)
+        {
+            try
+            {
+                var levelResultSave = new LevelResult
+                {
+                    UserId = levelResult.UserId,
+                    LevelId = levelResult.LevelId,
+                    Score = levelResult.Score,
+                    CompletionDate = DateOnly.FromDateTime(DateTime.Now)
+                };
+                await _db.LevelResults.AddAsync(levelResultSave);
+                await _db.SaveChangesAsync();
+                _reponse.IsSuccess = true;
+                _reponse.Notification = "Lưu kết quả thành công";
+                _reponse.Data = levelResultSave;
+                return Ok(_reponse);
+            }
+            catch (Exception ex)
+            {
+                _reponse.IsSuccess = false;
+                _reponse.Notification = "Lỗi";
+                _reponse.Data = ex.Message;
+                return BadRequest(_reponse);
+            }
+        }
+
         [HttpGet("GetAllQuestionGameByLevel/{levelId}")]
         public async Task<IActionResult> GetAllQuestionGameByLevel(int levelId)
         {
@@ -45,6 +73,8 @@ namespace Lab2.Controllers
                 return BadRequest(_reponse);
             }
         }
+
+        
 
         [HttpPost("Register")]
         public async Task<IActionResult> Register(RegisterDTO registerDTO)
