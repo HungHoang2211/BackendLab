@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Lab2.Data;
 using Lab2.Models;
+using Microsoft.AspNetCore.Identity;
+using Lab2.DTO;
+using Microsoft.AspNetCore.Identity.Data;
+using System.Linq.Expressions;
 
 namespace Lab2.Controllers
 {
@@ -13,11 +17,86 @@ namespace Lab2.Controllers
         private readonly ApplicationDbContext _db;
         protected ReponseApi _reponse;
 
-        public APIGameController(ApplicationDbContext db)
+        private readonly UserManager<ApplicationUser> _userManager;
+        public APIGameController(ApplicationDbContext db,
+            UserManager<ApplicationUser> userManager)
         {
             _db = db;
             _reponse = new();
+            _userManager = userManager;
         }
+
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register(RegisterDTO registerDTO)
+        {
+            try
+            {
+                var user = new ApplicationUser
+                {
+                    UserName = registerDTO.Email,
+                    Email = registerDTO.Email,
+                    Name = registerDTO.Name,
+                    RegionId = registerDTO.RegionId,
+                    Avatar = registerDTO.LinkAvatar
+                };
+                var result = await _userManager.CreateAsync(user, registerDTO.Password);
+                if (result.Succeeded)
+                {
+                    _reponse.IsSuccess = true;
+                    _reponse.Notification = "Đăng ký thành công";
+                    _reponse.Data = user;
+                    return Ok(_reponse);
+                }
+                else
+                {
+                    _reponse.IsSuccess = false;
+                    _reponse.Notification = "Đăng ký thất bại";
+                    _reponse.Data = result.Errors;
+                    return BadRequest(_reponse);
+                }
+            }
+            catch (Exception ex)
+            {
+                _reponse.IsSuccess = false;
+                _reponse.Notification = "Lỗi";
+                _reponse.Data = ex.Message;
+                return BadRequest(_reponse);
+            }
+        }
+
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
+        {
+            try
+            {
+                var email = loginRequest.Email;
+                var password = loginRequest.Password;
+
+                var user = await _userManager.FindByEmailAsync(email);
+                if (user != null && await _userManager.CheckPasswordAsync(user, password))
+                {
+                    _reponse.IsSuccess = true;
+                    _reponse.Notification = "Đăng nhập thành công";
+                    _reponse.Data = user;
+                    return Ok(_reponse);
+                }
+                else
+                {
+                    _reponse.IsSuccess = false;
+                    _reponse.Notification = "Đăng nhập thất bại";
+                    _reponse.Data = "Email hoặc mật khẩu không đúng";
+                    return BadRequest(_reponse);
+                }
+            }
+            catch (Exception ex)
+            {
+                _reponse.IsSuccess = false;
+                _reponse.Notification = "Lỗi" + ex.Message;
+                _reponse.Data = ex.Message;
+                return BadRequest(_reponse);
+            }
+        }
+
         [HttpGet("GetAllGameLevel")]
         public async Task<IActionResult> GetAllGameLevel()
         {
