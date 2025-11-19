@@ -29,6 +29,40 @@ namespace Lab2.Controllers
             _userManager = userManager;
         }
 
+        [HttpGet("GetUserInfomation/{userId}")]
+        public async Task<IActionResult> GetUserInfomation(string userId)
+        {
+            try
+            {
+                var user = await _db.Users.Where(x => x.Id == userId).FirstOrDefaultAsync();
+                if (user == null)
+                {
+                    _reponse.IsSuccess = false;
+                    _reponse.Notification = "Không tìm thấy dữ liệu";
+                    _reponse.Data = null;
+                    return BadRequest(_reponse);
+                }
+                UserInfomationVM userInfomationVM = new();
+                userInfomationVM.Name = user.Name;
+                userInfomationVM.Email = user.Email;
+                userInfomationVM.avatar = user.Avatar;
+                userInfomationVM.Region = await _db.Regions.Where(x => x.RegionId == user.RegionId)
+                    .Select(x => x.Name).FirstOrDefaultAsync();
+                _reponse.IsSuccess = true;
+                _reponse.Notification = "Lấy dữ liệu thành công";
+                _reponse.Data = userInfomationVM;
+                return Ok(_reponse);
+
+            }
+            catch (Exception ex)
+            {
+                _reponse.IsSuccess = false;
+                _reponse.Notification = "Lỗi";
+                _reponse.Data = ex.Message;
+                return BadRequest(_reponse);
+            }
+        }
+
         [HttpGet("Rating/{idRegion}")]
         public async Task<IActionResult> Rating(int idRegion)
         {

@@ -5,6 +5,28 @@
     "version": "v1"
   },
   "paths": {
+    "/api/APIGame/GetUserInfomation/{userId}": {
+      "get": {
+        "tags": [
+          "APIGame"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/APIGame/Rating/{idRegion}": {
       "get": {
         "tags": [

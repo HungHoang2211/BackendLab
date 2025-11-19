@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "E:\\Github\\BackendLab\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\dto\\levelresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\dto\\levelresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\viewmodel\\ratingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\viewmodel\\ratingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\viewmodel\\userinfomationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\viewmodel\\userinfomationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\migrations\\20251114075553_addmodelgametodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\migrations\\20251114075553_addmodelgametodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\models\\reponseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +25,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\models\\levelresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\levelresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\dto\\levelresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\dto\\levelresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\viewmodel\\ratingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\viewmodel\\ratingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\migrations\\20251114075553_addmodelgametodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\migrations\\20251114075553_addmodelgametodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\lab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\lab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -82,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,33 +94,108 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RatingVM.cs",
-              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\ViewModel\\RatingVM.cs",
-              "RelativeDocumentMoniker": "Lab2\\ViewModel\\RatingVM.cs",
-              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\ViewModel\\RatingVM.cs",
-              "RelativeToolTip": "Lab2\\ViewModel\\RatingVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "APIGameController.cs",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Controllers\\APIGameController.cs",
+              "RelativeDocumentMoniker": "Lab2\\Controllers\\APIGameController.cs",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Controllers\\APIGameController.cs",
+              "RelativeToolTip": "Lab2\\Controllers\\APIGameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:39:04.328Z",
+              "WhenOpened": "2025-11-17T02:08:44.39Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20251114075553_addModelGameToDb.cs",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
+              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
+              "RelativeToolTip": "Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:55:53.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LevelResult.cs",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\LevelResult.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\LevelResult.cs",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\LevelResult.cs",
+              "RelativeToolTip": "Lab2\\Models\\LevelResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:52:14.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20251114074518_Insert.cs",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114074518_Insert.cs",
+              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251114074518_Insert.cs",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114074518_Insert.cs",
+              "RelativeToolTip": "Lab2\\Migrations\\20251114074518_Insert.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:45:18.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Program.cs",
+              "RelativeDocumentMoniker": "Lab2\\Program.cs",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Program.cs",
+              "RelativeToolTip": "Lab2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T04:37:22.087Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LevelResultDTO.cs",
-              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\DTO\\LevelResultDTO.cs",
-              "RelativeDocumentMoniker": "Lab2\\DTO\\LevelResultDTO.cs",
-              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\DTO\\LevelResultDTO.cs",
-              "RelativeToolTip": "Lab2\\DTO\\LevelResultDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:25:29.82Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab2\\appsettings.json",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\appsettings.json",
+              "RelativeToolTip": "Lab2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-14T04:31:35.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "ReponseApi.cs",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\ReponseApi.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\ReponseApi.cs",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\ReponseApi.cs",
+              "RelativeToolTip": "Lab2\\Models\\ReponseApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:03:39.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserInfomationVM.cs",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\ViewModel\\UserInfomationVM.cs",
+              "RelativeDocumentMoniker": "Lab2\\ViewModel\\UserInfomationVM.cs",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\ViewModel\\UserInfomationVM.cs",
+              "RelativeToolTip": "Lab2\\ViewModel\\UserInfomationVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:39:58.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\DTO\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "Lab2\\DTO\\RegisterDTO.cs",
@@ -129,68 +208,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "APIGameController.cs",
-              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Controllers\\APIGameController.cs",
-              "RelativeDocumentMoniker": "Lab2\\Controllers\\APIGameController.cs",
-              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Controllers\\APIGameController.cs",
-              "RelativeToolTip": "Lab2\\Controllers\\APIGameController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFEAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T02:08:44.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReponseApi.cs",
-              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\ReponseApi.cs",
-              "RelativeDocumentMoniker": "Lab2\\Models\\ReponseApi.cs",
-              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\ReponseApi.cs",
-              "RelativeToolTip": "Lab2\\Models\\ReponseApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T02:03:39.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20251114075553_addModelGameToDb.cs",
-              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
-              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
-              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
-              "RelativeToolTip": "Lab2\\Migrations\\20251114075553_addModelGameToDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T07:55:53.349Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LevelResult.cs",
-              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\LevelResult.cs",
-              "RelativeDocumentMoniker": "Lab2\\Models\\LevelResult.cs",
-              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\LevelResult.cs",
-              "RelativeToolTip": "Lab2\\Models\\LevelResult.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAA0AAAAAAAAAA==",
+              "Title": "LevelResultDTO.cs",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\DTO\\LevelResultDTO.cs",
+              "RelativeDocumentMoniker": "Lab2\\DTO\\LevelResultDTO.cs",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\DTO\\LevelResultDTO.cs",
+              "RelativeToolTip": "Lab2\\DTO\\LevelResultDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T07:52:14.898Z"
+              "WhenOpened": "2025-11-19T07:25:29.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20251114074518_Insert.cs",
-              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114074518_Insert.cs",
-              "RelativeDocumentMoniker": "Lab2\\Migrations\\20251114074518_Insert.cs",
-              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114074518_Insert.cs",
-              "RelativeToolTip": "Lab2\\Migrations\\20251114074518_Insert.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "RatingVM.cs",
+              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\ViewModel\\RatingVM.cs",
+              "RelativeDocumentMoniker": "Lab2\\ViewModel\\RatingVM.cs",
+              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\ViewModel\\RatingVM.cs",
+              "RelativeToolTip": "Lab2\\ViewModel\\RatingVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T07:45:18.504Z"
+              "WhenOpened": "2025-11-19T07:39:04.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20251114072836_addUserModelToDb.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114072836_addUserModelToDb.cs",
               "RelativeDocumentMoniker": "Lab2\\Migrations\\20251114072836_addUserModelToDb.cs",
@@ -202,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Lab2\\Models\\ApplicationUser.cs",
@@ -214,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "20251114070801_addModelsGameToDb.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Migrations\\20251114070801_addModelsGameToDb.cs",
               "RelativeDocumentMoniker": "Lab2\\Migrations\\20251114070801_addModelsGameToDb.cs",
@@ -226,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Question.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\Question.cs",
               "RelativeDocumentMoniker": "Lab2\\Models\\Question.cs",
@@ -238,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Region.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\Region.cs",
               "RelativeDocumentMoniker": "Lab2\\Models\\Region.cs",
@@ -250,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "GameLevel.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Models\\GameLevel.cs",
               "RelativeDocumentMoniker": "Lab2\\Models\\GameLevel.cs",
@@ -262,19 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Program.cs",
-              "RelativeDocumentMoniker": "Lab2\\Program.cs",
-              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Program.cs",
-              "RelativeToolTip": "Lab2\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T04:37:22.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Lab2\\Data\\ApplicationDbContext.cs",
@@ -286,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Lab2.csproj",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Lab2.csproj",
               "RelativeDocumentMoniker": "Lab2\\Lab2.csproj",
@@ -295,18 +325,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-11-14T04:33:47.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\appsettings.json",
-              "RelativeDocumentMoniker": "Lab2\\appsettings.json",
-              "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\appsettings.json",
-              "RelativeToolTip": "Lab2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-14T04:31:35.07Z"
             }
           ]
         }
