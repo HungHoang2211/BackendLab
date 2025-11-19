@@ -46,14 +46,17 @@ namespace Lab2.Controllers
                         return BadRequest(_reponse);
                     }
                     var userByRegion = await _db.Users.Where(x => x.RegionId == idRegion).ToListAsync();
-                    var resultLevelByRegion = await _db.LevelResults.Where(x => userByRegion.Select(x => x.Id).Contains(x.UserId)).ToListAsync();
+                    var listUserId = userByRegion.Select(u => u.Id).ToList();
+                    var resultLevelByRegion = await _db.LevelResults
+                                .Where(lr => listUserId.Contains(lr.UserId.ToString()))
+                                .ToListAsync();
                     RatingVM ratingVM = new();
                     ratingVM.NameRegion = nameRegion;
                     ratingVM.userResultSums = new();
                     foreach (var item in userByRegion)
                     {
-                        var sumScore = resultLevelByRegion.Where(x => x.UserId == item.Id).Sum(x => x.Score);
-                        var sumLevel = resultLevelByRegion.Where(x => x.UserId == item.Id).Count();
+                        var sumScore = resultLevelByRegion.Where(x => x.UserId.ToString() == item.Id).Sum(x => x.Score);
+                        var sumLevel = resultLevelByRegion.Where(x => x.UserId.ToString() == item.Id).Count();
                         UserResultSum userResultSum = new();
                         userResultSum.NameUser = item.Name;
                         userResultSum.SumScore = sumScore;
@@ -75,8 +78,8 @@ namespace Lab2.Controllers
                     ratingVM.userResultSums = new();
                     foreach(var item in user)
                     {
-                        var sumScore = resultLevel.Where(x => x.UserId == item.Id).Sum(x => x.Score);
-                        var sumLevel = resultLevel.Where(x => x.UserId == item.Id).Count();
+                        var sumScore = resultLevel.Where(x => x.UserId.ToString() == item.Id).Sum(x => x.Score);
+                        var sumLevel = resultLevel.Where(x => x.UserId.ToString() == item.Id).Count();
                         UserResultSum userResultSum = new();
                         userResultSum.NameUser = item.Name;
                         userResultSum.SumScore = sumScore;

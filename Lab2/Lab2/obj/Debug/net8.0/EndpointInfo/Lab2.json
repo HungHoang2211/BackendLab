@@ -5,6 +5,29 @@
     "version": "v1"
   },
   "paths": {
+    "/api/APIGame/Rating/{idRegion}": {
+      "get": {
+        "tags": [
+          "APIGame"
+        ],
+        "parameters": [
+          {
+            "name": "idRegion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/APIGame/SaveResult": {
       "post": {
         "tags": [

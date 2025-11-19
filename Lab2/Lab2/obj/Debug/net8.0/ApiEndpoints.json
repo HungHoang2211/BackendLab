@@ -73,6 +73,22 @@
   },
   {
     "ContainingType": "Lab2.Controllers.APIGameController",
+    "Method": "Rating",
+    "RelativePath": "api/APIGame/Rating/{idRegion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRegion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab2.Controllers.APIGameController",
     "Method": "Register",
     "RelativePath": "api/APIGame/Register",
     "HttpMethod": "POST",

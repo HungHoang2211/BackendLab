@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\dto\\levelresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\viewmodel\\ratingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\viewmodel\\ratingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|solutionrelative:lab2\\controllers\\apigamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7DBD498-A824-41E2-8970-5142C285E863}|Lab2\\Lab2.csproj|e:\\github\\backendlab\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RatingVM.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\ViewModel\\RatingVM.cs",
               "RelativeDocumentMoniker": "Lab2\\ViewModel\\RatingVM.cs",
@@ -109,14 +109,14 @@
               "RelativeDocumentMoniker": "Lab2\\DTO\\LevelResultDTO.cs",
               "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\DTO\\LevelResultDTO.cs",
               "RelativeToolTip": "Lab2\\DTO\\LevelResultDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T07:25:29.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\DTO\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "Lab2\\DTO\\RegisterDTO.cs",
@@ -129,13 +129,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "APIGameController.cs",
               "DocumentMoniker": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Controllers\\APIGameController.cs",
               "RelativeDocumentMoniker": "Lab2\\Controllers\\APIGameController.cs",
               "ToolTip": "E:\\Github\\BackendLab\\Lab2\\Lab2\\Controllers\\APIGameController.cs",
               "RelativeToolTip": "Lab2\\Controllers\\APIGameController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFEAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T02:08:44.39Z",
               "EditorCaption": ""
