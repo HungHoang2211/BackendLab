@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Identity;
 using Lab2.DTO;
 using Microsoft.AspNetCore.Identity.Data;
 using System.Linq.Expressions;
+using Microsoft.Identity.Client;
+using System.Linq;
+using Lab2.ViewModel;
 
 namespace Lab2.Controllers
 {
@@ -24,6 +27,76 @@ namespace Lab2.Controllers
             _db = db;
             _reponse = new();
             _userManager = userManager;
+        }
+
+        [HttpGet("Rating/{idRegion}")]
+        public async Task<IActionResult> Rating(int idRegion)
+        {
+            try
+            {
+                if (idRegion > 0)
+                {
+                    var nameRegion = await _db.Regions.Where(x => x.RegionId == idRegion)
+                        .Select(x => x.Name).FirstOrDefaultAsync();
+                    if(nameRegion == null)
+                    {
+                        _reponse.IsSuccess = false;
+                        _reponse.Notification = "Vùng không tồn tại";
+                        _reponse.Data = null;
+                        return BadRequest(_reponse);
+                    }
+                    var userByRegion = await _db.Users.Where(x => x.RegionId == idRegion).ToListAsync();
+                    var resultLevelByRegion = await _db.LevelResults.Where(x => userByRegion.Select(x => x.Id).Contains(x.UserId)).ToListAsync();
+                    RatingVM ratingVM = new();
+                    ratingVM.NameRegion = nameRegion;
+                    ratingVM.userResultSums = new();
+                    foreach (var item in userByRegion)
+                    {
+                        var sumScore = resultLevelByRegion.Where(x => x.UserId == item.Id).Sum(x => x.Score);
+                        var sumLevel = resultLevelByRegion.Where(x => x.UserId == item.Id).Count();
+                        UserResultSum userResultSum = new();
+                        userResultSum.NameUser = item.Name;
+                        userResultSum.SumScore = sumScore;
+                        userResultSum.SumLevel = sumLevel;
+                        ratingVM.userResultSums.Add(userResultSum);
+                    }
+                    _reponse.IsSuccess = true;
+                    _reponse.Notification = "Lấy dữ liệu thành công";
+                    _reponse.Data = ratingVM;
+                    return Ok(_reponse);
+                }
+                else
+                {
+                    var user = await _db.Users.ToListAsync();
+                    var resultLevel = await _db.LevelResults.ToListAsync();
+                    string nameRegion = "Tất cả";
+                    RatingVM ratingVM = new();
+                    ratingVM.NameRegion = nameRegion;
+                    ratingVM.userResultSums = new();
+                    foreach(var item in user)
+                    {
+                        var sumScore = resultLevel.Where(x => x.UserId == item.Id).Sum(x => x.Score);
+                        var sumLevel = resultLevel.Where(x => x.UserId == item.Id).Count();
+                        UserResultSum userResultSum = new();
+                        userResultSum.NameUser = item.Name;
+                        userResultSum.SumScore = sumScore;
+                        userResultSum.SumLevel = sumLevel;
+                        ratingVM.userResultSums.Add(userResultSum);
+                    }
+                    _reponse.IsSuccess = true;
+                    _reponse.Notification = "Lấy dữ liệu thành công";
+                    _reponse.Data = ratingVM;
+                    return Ok(_reponse);
+
+                }
+            }
+            catch (Exception ex)
+            {
+                _reponse.IsSuccess = false;
+                _reponse.Notification = "Lỗi";
+                _reponse.Data = ex.Message;
+                return BadRequest(_reponse);
+            }
         }
 
         [HttpPost("SaveResult")]
